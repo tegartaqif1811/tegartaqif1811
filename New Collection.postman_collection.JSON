@@ -1,0 +1,618 @@
+{
+	"info": {
+		"_postman_id": "c12521ee-604c-4ccd-b7ce-33bb22c29668",
+		"name": "New Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "39467339"
+	},
+	"item": [
+		{
+			"name": "http://localhost/elektronik/elektronik.php",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost/elektronik/elektronik.php/3",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"elektronik",
+						"elektronik.php",
+						"3"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "http://localhost/elektronik/elektronik.php",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost/elektronik/elektronik.php/3",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"elektronik",
+								"elektronik.php",
+								"3"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Mon, 04 Nov 2024 04:40:40 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Apache/2.4.54 (Win64) OpenSSL/1.1.1p PHP/7.4.30"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "PHP/7.4.30"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "GET, POST, PUT, DELETE"
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": "Content-Type, Access-Control-Allow-Headers, brandization, X-Requested-With"
+						},
+						{
+							"key": "Content-Length",
+							"value": "68"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5, max=100"
+						},
+						{
+							"key": "Connection",
+							"value": "Keep-Alive"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=UTF-8"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"id\": 3,\n    \"name\": \"setrika\",\n    \"brand\": \"cosmos\",\n    \"price\": 150000,\n    \"stock\": 20\n}"
+				}
+			]
+		},
+		{
+			"name": "http://localhost/elektronik/elektronik.php",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost/elektronik/elektronik.php",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"elektronik",
+						"elektronik.php"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "http://localhost/elektronik/elektronik.php",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost/elektronik/elektronik.php",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"elektronik",
+								"elektronik.php"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Mon, 04 Nov 2024 04:46:54 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Apache/2.4.54 (Win64) OpenSSL/1.1.1p PHP/7.4.30"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "PHP/7.4.30"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "GET, POST, PUT, DELETE"
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": "Content-Type, Access-Control-Allow-Headers, brandization, X-Requested-With"
+						},
+						{
+							"key": "Content-Length",
+							"value": "416"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5, max=100"
+						},
+						{
+							"key": "Connection",
+							"value": "Keep-Alive"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=UTF-8"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"id\": 1,\n        \"name\": \"tv\",\n        \"brand\": \"Samsung\",\n        \"price\": 300000,\n        \"stock\": 15\n    },\n    {\n        \"id\": 2,\n        \"name\": \"kulkas\",\n        \"brand\": \"polytron\",\n        \"price\": 500000,\n        \"stock\": 10\n    },\n    {\n        \"id\": 3,\n        \"name\": \"setrika\",\n        \"brand\": \"cosmos\",\n        \"price\": 150000,\n        \"stock\": 20\n    },\n    {\n        \"id\": 4,\n        \"name\": \"radio\",\n        \"brand\": \"panasonic\",\n        \"price\": 120000,\n        \"stock\": 25\n    },\n    {\n        \"id\": 5,\n        \"name\": \"kipas angin\",\n        \"brand\": \"sogo\",\n        \"price\": 120000,\n        \"stock\": 15\n    },\n    {\n        \"id\": 6,\n        \"name\": \"magiccom\",\n        \"brand\": \"cosmos\",\n        \"price\": 200000,\n        \"stock\": 17\n    }\n]"
+				}
+			]
+		},
+		{
+			"name": "http://localhost/elektronik/elektronik.php/3",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost/elektronik/elektronik.php/3",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"elektronik",
+						"elektronik.php",
+						"3"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "http://localhost/elektronik/elektronik.php/3",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost/elektronik/elektronik.php/3",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"elektronik",
+								"elektronik.php",
+								"3"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Mon, 04 Nov 2024 04:48:11 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Apache/2.4.54 (Win64) OpenSSL/1.1.1p PHP/7.4.30"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "PHP/7.4.30"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "GET, POST, PUT, DELETE"
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": "Content-Type, Access-Control-Allow-Headers, brandization, X-Requested-With"
+						},
+						{
+							"key": "Content-Length",
+							"value": "68"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5, max=100"
+						},
+						{
+							"key": "Connection",
+							"value": "Keep-Alive"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=UTF-8"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"id\": 3,\n    \"name\": \"setrika\",\n    \"brand\": \"cosmos\",\n    \"price\": 150000,\n    \"stock\": 20\n}"
+				}
+			]
+		},
+		{
+			"name": "http://localhost/elektronik/elektronik.php",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"ac\",\r\n    \"brand\": \"lg\",\r\n    \"price\": 200000,\r\n    \"stock\": 15\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost/elektronik/elektronik.php",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"elektronik",
+						"elektronik.php"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "http://localhost/elektronik/elektronik.php",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"ac\",\r\n    \"brand\": \"lg\",\r\n    \"price\": 200000,\r\n    \"stock\": 15\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost/elektronik/elektronik.php",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"elektronik",
+								"elektronik.php"
+							]
+						}
+					},
+					"status": "Created",
+					"code": 201,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Mon, 04 Nov 2024 04:50:54 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Apache/2.4.54 (Win64) OpenSSL/1.1.1p PHP/7.4.30"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "PHP/7.4.30"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "GET, POST, PUT, DELETE"
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": "Content-Type, Access-Control-Allow-Headers, brandization, X-Requested-With"
+						},
+						{
+							"key": "Content-Length",
+							"value": "41"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5, max=100"
+						},
+						{
+							"key": "Connection",
+							"value": "Keep-Alive"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=UTF-8"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"message\": \"elektronik created\",\n    \"id\": \"8\"\n}"
+				}
+			]
+		},
+		{
+			"name": "http://localhost/elektronik/elektronik.php/5",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"ac\",\r\n    \"brand\": \"lg\",\r\n    \"price\": 4000000,\r\n    \"stock\": 20\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost/elektronik/elektronik.php/5",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"elektronik",
+						"elektronik.php",
+						"5"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "http://localhost/elektronik/elektronik.php/5",
+					"originalRequest": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"ac\",\r\n    \"brand\": \"lg\",\r\n    \"price\": 4000000,\r\n    \"stock\": 20\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost/elektronik/elektronik.php/5",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"elektronik",
+								"elektronik.php",
+								"5"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Mon, 04 Nov 2024 04:52:53 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Apache/2.4.54 (Win64) OpenSSL/1.1.1p PHP/7.4.30"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "PHP/7.4.30"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "GET, POST, PUT, DELETE"
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": "Content-Type, Access-Control-Allow-Headers, brandization, X-Requested-With"
+						},
+						{
+							"key": "Content-Length",
+							"value": "32"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5, max=100"
+						},
+						{
+							"key": "Connection",
+							"value": "Keep-Alive"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=UTF-8"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"message\": \"elektronik updated\"\n}"
+				}
+			]
+		},
+		{
+			"name": "http://localhost/elektronik/elektronik.php/5",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"ac\",\r\n    \"brand\": \"lg\",\r\n    \"price\": 4000000,\r\n    \"stock\": 20\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost/elektronik/elektronik.php/5",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"elektronik",
+						"elektronik.php",
+						"5"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "http://localhost/elektronik/elektronik.php/5",
+					"originalRequest": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"ac\",\r\n    \"brand\": \"lg\",\r\n    \"price\": 4000000,\r\n    \"stock\": 20\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost/elektronik/elektronik.php/5",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"elektronik",
+								"elektronik.php",
+								"5"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Mon, 04 Nov 2024 04:53:22 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Apache/2.4.54 (Win64) OpenSSL/1.1.1p PHP/7.4.30"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "PHP/7.4.30"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "GET, POST, PUT, DELETE"
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": "Content-Type, Access-Control-Allow-Headers, brandization, X-Requested-With"
+						},
+						{
+							"key": "Content-Length",
+							"value": "32"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5, max=100"
+						},
+						{
+							"key": "Connection",
+							"value": "Keep-Alive"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=UTF-8"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"message\": \"elektronik deleted\"\n}"
+				}
+			]
+		}
+	]
+}
